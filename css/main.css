@@ -1,0 +1,138 @@
+.first-section {
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+.second-section{
+    height: 200px;
+    width: 1100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: salmon;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.border{
+    border-style: solid;
+    border-width: 2px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.one-block{
+    width: 200px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-content: space-between;
+    background-color: springgreen;
+}
+
+.one-block ul {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.two-block{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.third-block{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightskyblue;
+}
+
+.header-block {
+    background-color: lightyellow;
+    width: 150px;
+}
+
+.header-block__text{
+    font-size: 16px;
+    text-align: center;
+}
+
+.small-text {
+    font-size: 19px;
+}
+
+.forth-block {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+
+.sixth-block{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.seventh-block{
+    height: 100%;
+    width: 100%;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+
+.fifth-block{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.last-block{
+    width: 300px;
+    height: 100%;
+    background-color: yellow;
+}
+
+.last-block ol{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 300px;
+    height: 100%;
+}
+
+.second-section .header-text {
+    width: 700px;
+}
